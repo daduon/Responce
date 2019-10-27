@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
+  <style>
+    body {
+      background-color: #ccc
+    }
+
+    .col-md-12 {
+      background-color: yellow;
+      height: 100px;
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .col-md-12 {
+        background-color: rgb(76, 0, 255)
+      }
+
+      h1 {
+        color: white
+      }
+    }
+    h2 {
+      text-align: center;
+      color: red
+    }
+
+    @media only screen and (max-width: 768px) {
+      .p1 {
+        text-align: center;
+        color: rgb(192, 131, 17)
+      }
+
+      h2 {
+        text-align: center;
+        color: #000;
+        font-size: 50px
+      }
+    }
+
+
+    .aside {
+      background-color: chartreuse
+    }
+
+    @media only screen and (max-width: 768px) {
+      .aside {
+        background-color: crimson
+      }
+
+      h3 {
+        color: darkblue;
+        font-size: 30px;
+      }
+    }
+
+
+    .p2 {
+      color: deeppink;
+      text-align: center;
+      background-color: black;
+      height: 100px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .p2 {
+        color: rgb(134, 24, 4);
+        font-size: 50px;
+        text-align: center;
+      }
+
+      .p2 {
+        background-color: lightskyblue;
+      }
+    }
+
+    .footer {
+      margin-top: 100px;
+    }
+
+    .menu li {
+      background-color: #CDF0F6;
+      margin-top: 10px;
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="col-md-12">
+      <h1>Response</h1>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-3 menu">
+        <ul class="list-group">
+          <li>PHP</li>
+          <li>Java Script</li>
+          <li>HTML</li>
+          <li>Java Programming</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2>I am like IT</h2>
+        <p class="p1">When the browser's width is 600px wide or less, set the font-size of DIV</p>
+      </div>
+      <div class="col-md-3">
+        <div class="aside">
+          <h3>What is PHP</h3>
+          <h3>What is Response</h3>
+          <h3>What is Java</h3>
+          <h3>What is Your name</h3>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <footer class="footer">
+        <p class="p2">When the browser's width is 600px wide or less, set the font-size of DIV</p>
+      </footer>
+    </div>
+  </div>
+  <script src="js/practice.js"></script>
+</body>
+
+</html>
